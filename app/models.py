@@ -37,6 +37,7 @@ class Veiculo(models.Model):
         ("branco", "Branco"),
         ("prata", "Prata"),
         ("vermelho", "Vermelho"),
+        ("verde", "Verde"),
     )
 
     TIPO_CHOICES = (
